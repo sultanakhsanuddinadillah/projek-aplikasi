@@ -20,7 +20,7 @@ class MerchantApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Merchant Pro',
+      title: 'LACIKITA',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
@@ -75,7 +75,7 @@ class _LoginPageState extends State<LoginPage> {
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
               const Icon(Icons.store_mall_directory_rounded,
                   size: 80, color: Colors.indigo),
-              const Text("Merchant Pro",
+              const Text("LACIKITA",
                   style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
               const SizedBox(height: 32),
               TextField(
